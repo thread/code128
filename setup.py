@@ -12,7 +12,7 @@ with io.open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_descr = f.read()
 
 setup(
-    name        = "code128",
+    name        = "thread-code128",
     version     = "0.3",
     description = "Create code128 barcodes",
     long_description = long_descr,
